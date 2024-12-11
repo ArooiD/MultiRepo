@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f47e85cb-fa9f-42f2-9659-84ff5ef10498" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/KeycloakdemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/api/controllers/AnimalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/api/controllers/ContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/api/controllers/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/application/dtos/animal/AnimalCreateRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/application/dtos/animal/AnimalResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/application/dtos/contact/ContactCreateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/application/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/application/services/AnimalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/application/services/impl/AnimalServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/domain/entities/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/domain/repositories/AnimalRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/infra/security/config/KeycloakRoleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/infra/security/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/infra/security/filters/CsrfCookieFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/henrique/keycloakdemo/infra/security/handlers/CustomAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/db/migration/V1__create-tables.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.nvmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/(auth)/(home)/_components/csrfTests.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/(auth)/(home)/_components/requestTests.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/(auth)/(home)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/(auth)/(protected)/(admin)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/(auth)/(protected)/(admin)/private/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/(auth)/(protected)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/(auth)/(protected)/protected/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/(auth)/_components/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/(auth)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/constants/env.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/hocs/withRoles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/libs/axios.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/libs/oidc-client.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/next.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/postcss.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tailwind.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/types/jwtInfo.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2q5R64CHIfXfcKsFuMmqYxk7mLN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Istok/MultiRepo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f47e85cb-fa9f-42f2-9659-84ff5ef10498" name="Changes" comment="" />
+      <created>1733950270403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733950270403</updated>
+      <workItem from="1733950271428" duration="299000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
