@@ -1,0 +1,8 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/ArooiD/MultiRepo-Backend
+
+[submodule "frontend"]
+	path = backend
+	url = https://github.com/ArooiD/MultiRepo-Frontend
+
