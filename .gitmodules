@@ -3,6 +3,6 @@
 	url = https://github.com/ArooiD/MultiRepo-Backend
 
 [submodule "frontend"]
-	path = backend
+	path = frontend
 	url = https://github.com/ArooiD/MultiRepo-Frontend
 
